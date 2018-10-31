@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="12dp"
+        android:text="Toogle Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="86dp"
+        android:text="ToggleButton"
+        android:textColorLink="@color/colorPrimary"
+        android:textOff="Desligado"
+        android:textOn="Ligado" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/toggleButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-114dp"
+        android:layout_marginBottom="311dp"
+        android:text="..." />
+</RelativeLayout>

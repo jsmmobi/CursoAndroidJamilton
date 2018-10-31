@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/edtTexto"
+        android:layout_width="320dp"
+        android:layout_height="360dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/fundo_anotacao"
+        android:ems="10"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:paddingLeft="35dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:singleLine="false"
+        android:textColorLink="#41342e"
+        android:textSize="@dimen/texto_anotacao" />
+
+    <ImageView
+        android:id="@+id/ivSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtTexto"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/botao_salvar" />
+</RelativeLayout>

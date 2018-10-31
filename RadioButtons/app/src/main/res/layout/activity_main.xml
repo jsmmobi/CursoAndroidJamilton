@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qual_comida_preferida"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="@string/qual_comida_preferida" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <RadioButton
+            android:id="@+id/rbLasanha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/lasanha" />
+
+        <RadioButton
+            android:id="@+id/rbBife"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:text="@string/bife_parmegiana" />
+
+        <RadioButton
+            android:id="@+id/rbMacarrao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/macarrao" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dots"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+</LinearLayout>
