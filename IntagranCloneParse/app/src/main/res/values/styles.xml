@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/colorBlack</item>
+        <item name="android:textColorPrimary">@color/colorBlack</item>
+        <item name="colorControlNormal">@color/colorBlack</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+    </style>
+
+
+    <!-- This style is where you define the tint color of your overflow menu button -->
+    <style name="MyActionButtonOverflow" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/colorBlack</item>
+    </style>
+
+    <style name="MainActionBar.Popup" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@color/colorBlack</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorSecondary">@color/colorBlack</item>
+    </style>
+
+    <style name="AppTheme.ToolbarStyle" parent="Base.Widget.AppCompat.Toolbar">
+        <!--<item name="actionOverflowButtonStyle">@style/AppTheme.OverflowButtonStyle</item>-->
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="titleTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse</item>
+        <item name="android:titleTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle</item>
+    </style>
+
+</resources>

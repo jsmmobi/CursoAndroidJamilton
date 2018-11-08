@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Instagran Clone</string>
+
+    <string name="app_id">tgvQ98WA6IRD3tJweZ8zVOZ1YPCEgbyWViDGOznj</string>
+    <string name="cliente_id">DshlkFHR52ZyUfHIXrBPscd3VmU7ZLnLL9xlRSX5</string>
+    <string name="server_url">https://parseapi.back4app.com/</string>
+    <string name="digite_seu_usuario">Digite seu usuário</string>
+    <string name="digite_sua_senha">Digite sua senha</string>
+    <string name="logar">Logar</string>
+    <string name="crie_conta">Não tem conta? crie uma.</string>
+    <string name="digite_seu_email">Digite seu email</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="faca_login">Já tem conta? faça login.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_feed_usuario">FeedUsuarioActivity</string>
+</resources>

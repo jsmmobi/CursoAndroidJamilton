@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_degrade"
+    tools:context=".activity.CadastroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/usuario" />
+
+                <EditText
+                    android:id="@+id/edtUsuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/fundo_caixa_texto"
+                    android:ems="10"
+                    android:hint="@string/digite_seu_usuario"
+                    android:inputType="textPersonName"
+                    android:padding="16dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white" />
+
+                <EditText
+                    android:id="@+id/edtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/fundo_caixa_texto"
+                    android:ems="10"
+                    android:hint="@string/digite_seu_email"
+                    android:inputType="textEmailAddress|textPersonName"
+                    android:padding="16dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white" />
+
+                <EditText
+                    android:id="@+id/edtSenha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/fundo_caixa_texto"
+                    android:ems="10"
+                    android:hint="@string/digite_sua_senha"
+                    android:inputType="textPassword"
+                    android:padding="16dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btCadastrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/fundo_botao"
+                    android:text="@string/cadastrar"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/tvFacaLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="@string/faca_login"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
